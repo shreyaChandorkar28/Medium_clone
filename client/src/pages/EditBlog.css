@@ -1,0 +1,132 @@
+/* .edit-blog-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .edit-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .edit-input,
+  .edit-textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-textarea {
+    height: 200px;
+    resize: vertical;
+  }
+  
+  .edit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-btn:hover {
+    background-color: darkgrey;
+  }
+   */
+
+
+   .edit-blog-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .edit-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .edit-input,
+  .edit-textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-textarea {
+    height: 200px;
+    resize: vertical;
+  }
+  
+  .edit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-btn:hover {
+    background-color: darkgrey;
+  }
+  
+  @media (max-width: 768px) {
+    .edit-blog-container {
+      padding: 20px;
+    }
+    
+    .edit-label,
+    .edit-input,
+    .edit-textarea {
+      font-size: 12px;
+    }
+    
+    .edit-textarea {
+      height: 150px;
+    }
+  }
+  

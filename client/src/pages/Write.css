@@ -1,0 +1,155 @@
+/* .write-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .write-form {
+    margin-top: 70px;
+    width: 500px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-group-item {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input,
+  .textarea,
+  .select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .textarea {
+    height: 300px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: gray;
+  }
+  .write-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .go-back-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #000;
+    text-decoration: none;
+  }
+     */
+
+     .write-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      position: relative;
+    }
+    
+    .write-form {
+      margin-top: 70px;
+      width: 500px;
+      max-width: 100%;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .input-group {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    
+    .input-group-item {
+      flex: 1;
+      margin-right: 10px;
+    }
+    
+    .label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .input,
+    .textarea,
+    .select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .textarea {
+      height: 300px;
+    }
+    
+    .button {
+      width: 100%;
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .button:hover {
+      background-color: gray;
+    }
+    
+    .go-back-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #000;
+      text-decoration: none;
+    }
+    
+    @media (max-width: 768px) {
+      .write-form {
+        width: 100%;
+      }
+      
+      .input-group-item {
+        flex: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+      
+      .textarea {
+        height: 200px;
+      }
+    }
+    

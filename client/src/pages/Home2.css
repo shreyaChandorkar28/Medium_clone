@@ -1,0 +1,171 @@
+/* .home4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search input {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.search button {
+  padding: 15px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.posts4 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post4 {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 40%;
+}
+
+.post4:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.img4 {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.content4 {
+  text-align: center;
+}
+
+  .link {
+    text-decoration: none;
+  }
+  
+  .btnlink {
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  .category {
+    padding: 10px;
+    border: none;
+    width: 80px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 10px;
+  }
+   */
+
+
+   .home4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .search button {
+    padding: 15px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  .posts4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .post4 {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 40%;
+  }
+  
+  .post4:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .img4 {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+  }
+  
+  .content4 {
+    text-align: center;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .btnlink {
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .category {
+    padding: 10px;
+    border: none;
+    width: 80px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    .post4 {
+      width: 90%;
+    }
+  
+    .img4 {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

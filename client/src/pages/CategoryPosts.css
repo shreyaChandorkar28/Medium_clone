@@ -1,0 +1,161 @@
+/* .home2 {
+    width: 100%;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 0px;
+  }
+  
+  .posts2 {
+    margin-left: 90px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  
+  .post2 {
+    width: 40%;
+    gap: 10px; 
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }  
+  .img2 {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content21 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content21 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content21 p {
+    font-size: 16px;
+  }
+  
+  .link2 {
+    text-decoration: none;
+  }
+  
+  .btnlink2 {
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .category {
+    padding: 10px;
+    border: none;
+    width: 80px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 10px;
+  }
+  
+ */
+
+
+ .home2 {
+  width: 100%;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-top: 0px;
+}
+
+.posts2 {
+  /* width: 50%; */
+  margin-left: 90px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post2 {
+  width: 40%;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add box shadow for card */
+}
+
+.img2 {
+  /* flex: 1; */
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover;  */
+}
+
+.content21 {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content21 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content21 p {
+  font-size: 16px;
+}
+
+.link2 {
+  text-decoration: none;
+}
+
+.btnlink2 {
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.category {
+  padding: 10px;
+  border: none;
+  width: 80px;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 10px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .home2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .posts2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .post2 {
+    width: 100%;
+  }
+}

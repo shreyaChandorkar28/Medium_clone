@@ -1,0 +1,47 @@
+/* .blogdet{
+    padding: 10px;
+    margin-top: 40px;
+    justify-content: left;
+}
+.pi {
+    color: darkgrey;
+}
+.tc{
+    color: darkgrey;
+}
+.bb{
+    margin-left: 200px;
+    margin-right: 190px;
+    justify-content: left;
+    text-align: left;
+} */
+
+
+.blogdet {
+    padding: 10px;
+    margin-top: 40px;
+    justify-content: left;
+  }
+  
+  .pi {
+    color: darkgrey;
+  }
+  
+  .tc {
+    color: darkgrey;
+  }
+  
+  .bb {
+    margin-left: 200px;
+    margin-right: 190px;
+    justify-content: left;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .bb {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  
